@@ -12,9 +12,8 @@ function Sobre() {
             <h1>
               <span>Sobre</span>
             </h1>
-            <a>Desenvolvedor Front-End Júnior | Web Designer (UI/UX)</a>
-            <br></br>
-            <a>Em busca de novas tecnologias para explorar</a>
+            <h2>Desenvolvedor Front-End Júnior | Web Designer (UI/UX)</h2>
+            <h2>Em busca de novas tecnologias para explorar</h2>
           </div>
         </div>
       </div>

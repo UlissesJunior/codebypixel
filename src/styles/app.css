@@ -110,7 +110,8 @@ body {
   color: #9174E4;
 }
 
-.container-box a {
+.container-box a, .container-box h2 {
+  font-weight: 400;
   color: #fff;
   font-size: 16px;
 }
