@@ -49,6 +49,10 @@ body {
   width: 100%;
 }
 
+.nav-center a {
+  text-decoration: none;
+}
+
 .nav-center ul {
   line-height: 40px;
   height: 40px;
