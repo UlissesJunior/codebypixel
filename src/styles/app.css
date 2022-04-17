@@ -110,7 +110,7 @@ body {
   color: #9174E4;
 }
 
-.container-box a, .container-box h2 {
+.container-box h2 {
   font-weight: 400;
   color: #fff;
   font-size: 16px;
@@ -122,5 +122,42 @@ body {
   height: 425px;
   right: 0;
   image-rendering: optimizeQuality;
+}
+
+.container:nth-child(2) {
+  max-width: 1100px;
+  margin: auto;
+  height: 0;
+}
+
+.container-sobre {
+  margin-top: 80px;
+}
+
+.container-sobre .sobre-inline {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.container-sobre h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.container-sobre span {
+  color: #9174E4;
+}
+
+.container-sobre h2 {
+  font-weight: 400;
+  color: #fff;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.container-sobre img {
+  margin-right: 24px;
 }
 /*# sourceMappingURL=app.css.map */
