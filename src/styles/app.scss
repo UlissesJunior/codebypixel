@@ -27,7 +27,7 @@ $purple: #9174E4;
         opacity: 0;
         transform-origin: 50% 50%;
         transform: scale(2, 2);
-        filter: blur(90px);
+        filter: blur(80px);
     }
 
     100% {
@@ -150,6 +150,7 @@ body {
             height: 425px;
             animation-name: vanishIn;
             animation-duration: 1.6s;
+            // animation-delay: -1s;
         }
 
         image-rendering: optimizeQuality;

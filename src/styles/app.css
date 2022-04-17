@@ -19,8 +19,8 @@
             transform-origin: 50% 50%;
     -webkit-transform: scale(2, 2);
             transform: scale(2, 2);
-    -webkit-filter: blur(90px);
-            filter: blur(90px);
+    -webkit-filter: blur(80px);
+            filter: blur(80px);
   }
   100% {
     opacity: 1;
@@ -40,8 +40,8 @@
             transform-origin: 50% 50%;
     -webkit-transform: scale(2, 2);
             transform: scale(2, 2);
-    -webkit-filter: blur(90px);
-            filter: blur(90px);
+    -webkit-filter: blur(80px);
+            filter: blur(80px);
   }
   100% {
     opacity: 1;
