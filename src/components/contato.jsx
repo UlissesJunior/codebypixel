@@ -10,10 +10,14 @@ function Contato() {
         <div className="container-box">
           <div>
             <h1>
-              <span>Área de Contato</span>
+              <span>Contato</span>
             </h1>
-            <h2>Desenvolvedor Front-End Júnior | Web Designer (UI/UX)</h2>
-            <h2>Em busca de novas tecnologias para explorar</h2>
+            <h1><br /></h1>
+            <h2><span>Currículo:</span> Download</h2><br />
+            <h2><span>Email:</span> codebypixel@gmail.com</h2><br />
+            <h2><span>Instagram:</span> @codebypixel</h2><br />
+            <h2><span>Github:</span> UlissesJunior</h2><br />
+            <h2><span>Linkedin:</span> Ulisses Junior</h2>
           </div>
         </div>
       </div>
