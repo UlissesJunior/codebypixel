@@ -1,4 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #151718;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9174E4;
+  border-radius: 16px;
+}
+
 * {
   padding: 0;
   margin: 0;

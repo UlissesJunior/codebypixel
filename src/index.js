@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import App from "./App";
+import App from "./App.jsx";
 import Sobre from "./components/sobre.jsx";
 import Projetos from "./components/projetos.jsx";
 import Contato from "./components/contato.jsx";

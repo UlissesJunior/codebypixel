@@ -7,6 +7,18 @@ $purple: #9174E4;
 //Fontes
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+//Navbar
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: $bg_dark;
+}
+::-webkit-scrollbar-thumb {
+    background: $purple;
+    border-radius: 16px;
+}
+
 * {
     padding: 0;
     margin: 0;
