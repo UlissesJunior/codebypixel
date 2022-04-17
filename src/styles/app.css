@@ -12,6 +12,48 @@
   border-radius: 16px;
 }
 
+@-webkit-keyframes vanishIn {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(2, 2);
+            transform: scale(2, 2);
+    -webkit-filter: blur(90px);
+            filter: blur(90px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+}
+
+@keyframes vanishIn {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(2, 2);
+            transform: scale(2, 2);
+    -webkit-filter: blur(90px);
+            filter: blur(90px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -138,6 +180,10 @@ body {
 .container-box .home-img img {
   width: 550px;
   height: 425px;
+  -webkit-animation-name: vanishIn;
+          animation-name: vanishIn;
+  -webkit-animation-duration: 1.6s;
+          animation-duration: 1.6s;
 }
 
 .container-box .contato-img {
@@ -165,6 +211,10 @@ body {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .container-sobre h1 {
@@ -186,5 +236,15 @@ body {
 
 .container-sobre img {
   margin-right: 24px;
+}
+
+.container-contato h2 img {
+  margin-left: 16px;
+}
+
+.container-contato h2 span:nth-child(2) {
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
 }
 /*# sourceMappingURL=app.css.map */
