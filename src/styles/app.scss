@@ -120,11 +120,23 @@ body {
         font-size: 16px;
     }
 
-    img {
+    .home-img {
         position: absolute;
-        width: 550px;
-        height: 425px;
         right: 0;
+        img {
+            width: 550px;
+            height: 425px;
+        }
+        image-rendering: optimizeQuality;
+    }
+
+    .contato-img {
+        position: absolute;
+        right: 0;
+        img {
+            width: 362px;
+            height: 400px;
+        }
         image-rendering: optimizeQuality;
     }
 }

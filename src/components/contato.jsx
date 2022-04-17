@@ -1,6 +1,9 @@
 import React from "react";
 import "../styles/app.css";
+import { Link } from "react-router-dom";
 import Nav from "./navbar";
+import Atalho from "../img/atalho.png"
+import Earth from "../img/Earth.png"
 
 function Contato() {
   return (
@@ -8,16 +11,17 @@ function Contato() {
       <div className="container">
         <Nav />
         <div className="container-box">
-          <div>
+          <div><div className="contato-img">
+           <img src={Earth} alt="" srcset="" /> </div>
             <h1>
               <span>Contato</span>
             </h1>
             <h1><br /></h1>
-            <h2><span>Currículo:</span> Download</h2><br />
-            <h2><span>Email:</span> codebypixel@gmail.com</h2><br />
-            <h2><span>Instagram:</span> @codebypixel</h2><br />
-            <h2><span>Github:</span> UlissesJunior</h2><br />
-            <h2><span>Linkedin:</span> Ulisses Junior</h2>
+            <h2><span>Currículo:</span> Download <Link to="/codebypixel"><img src={Atalho} alt="" srcset="" /></Link> </h2><br />
+            <h2><span>Email:</span> codebypixel@gmail.com<img src={Atalho} alt="" srcset="" /></h2><br />
+            <h2><span>Instagram:</span> @codebypixel<img src={Atalho} alt="" srcset="" /></h2><br />
+            <h2><span>Github:</span> UlissesJunior<img src={Atalho} alt="" srcset="" /></h2><br />
+            <h2><span>Linkedin:</span> Ulisses Junior<img src={Atalho} alt="" srcset="" /></h2>
           </div>
         </div>
       </div>

@@ -9,7 +9,9 @@ function App() {
       <div className="container">
         <Nav />
         <div className="container-box">
-          <img src={Banner} alt="Banner"/>
+          <div className="home-img">
+            <img src={Banner} alt="Banner" />
+          </div>
           <div>
             <h1>
               Olá, <br />

@@ -9,8 +9,7 @@ import Contato from "./components/contato.jsx";
 render(
   <BrowserRouter>
     <Routes>
-      <Route path="codebypixel" element={<App />}>
-        <Route index element={<App />} /></Route>
+        <Route path="codebypixel" element={<App />}></Route>
         <Route path="sobre" element={<Sobre />}></Route>
         <Route path="projetos" element={<Projetos />}></Route>
         <Route path="contato" element={<Contato />}></Route>
