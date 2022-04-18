@@ -1,10 +1,9 @@
 import React from "react";
 import "../styles/app.css";
-import { Link } from "react-router-dom";
+import { ExternalLink } from "react-external-link";
 import Nav from "./navbar";
 import Atalho from "../img/atalho.png";
 import Earth from "../img/Earth.png";
-import { ExternalLink } from "react-external-link";
 
 function Contato() {
   return (
