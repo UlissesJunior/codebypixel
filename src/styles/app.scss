@@ -203,7 +203,12 @@ body {
     img {
         margin-right: 24px;
     }
+}
 
+.container-sobre:nth-child(3) {
+    h2 {
+        line-height: calc(210px/3);
+    }
 }
 
 .container-contato {
