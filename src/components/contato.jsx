@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Nav from "./navbar";
 import Atalho from "../img/atalho.png";
 import Earth from "../img/Earth.png";
+import { ExternalLink } from "react-external-link";
 
 function Contato() {
   return (
@@ -27,33 +28,30 @@ function Contato() {
             <br />
             <h2>
               <span>Email:</span> codebypixel@gmail.com
-              <a href="mailto:codebypixel@gmail.com" target="_blank">
+              <ExternalLink href="mailto:codebypixel@gmail.com">
                 <img src={Atalho} alt="" srcset="" />
-              </a>
+              </ExternalLink>
             </h2>
             <br />
             <h2>
               <span>Instagram:</span> @codebypixel{" "}
-              <a href="https://www.instagram.com/codebypixel/" target="_blank">
+              <ExternalLink href="https://www.instagram.com/codebypixel/">
                 <img src={Atalho} alt="" srcset="" />
-              </a>
+              </ExternalLink>
             </h2>
             <br />
             <h2>
               <span>Github:</span> UlissesJunior
-              <a href="https://github.com/UlissesJunior" target="_blank">
+              <ExternalLink href="https://github.com/UlissesJunior">
                 <img src={Atalho} alt="" srcset="" />
-              </a>
+              </ExternalLink>
             </h2>
             <br />
             <h2>
               <span>Linkedin:</span> Ulisses Junior
-              <a
-                href="https://www.linkedin.com/in/ulisses-junior/"
-                target="_blank"
-              >
+              <ExternalLink href="https://www.linkedin.com/in/ulisses-junior/">
                 <img src={Atalho} alt="" srcset="" />
-              </a>
+              </ExternalLink>
             </h2>
           </div>
         </div>
