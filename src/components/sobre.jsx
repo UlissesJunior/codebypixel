@@ -1,16 +1,24 @@
 import React from "react";
 import "../styles/app.css";
+import moment from "moment";
 import Nav from "./navbar";
 import User from "../img/user.png";
 import Timeline from "../img/timeline.png";
-import moment from 'moment';
+import html_badge from "../img/badge_html.png";
+import css_badge from "../img/badge_css.png";
+import js_badge from "../img/badge_js.png";
+import c_badge from "../img/badge_c.png";
 
 function Sobre() {
+  //Birthday
+  let birthday = moment()
+    .subtract(2005, "years")
+    .subtract(7, "months")
+    .add(17, "days")
+    .format("YY");
 
-  let now = moment().format("DD/MM/YYYY");
-  console.log(now);
-  let birthday = moment().subtract(2005, 'years').subtract(7, 'months').add(17, 'days').format("YY")
-  console.log(birthday)
+  let work = moment().subtract(2021, "years").add(5, "months").format("MM");
+  console.log(work);
 
   return (
     <>
@@ -49,9 +57,26 @@ function Sobre() {
             <h1>
               <span>Skills e Tecnologias</span>
             </h1>
-            <div className="sobre-inline">
-              <img src={User} alt="Ulisses Junior" />
+            {/* <div className="sobre-inline">
+              <div className="badge">
+                <img src={html_badge} alt="badge"/>
+              </div>
+              <div className="badge">
+                <img src={css_badge} alt="badge"/>
+              </div>
+              <div className="badge">
+                <img src={js_badge} alt="badge"/>
+              </div>
+              <div className="badge">
+                <img src={c_badge} alt="badge"/>
+              </div>
             </div>
+            <div className="sobre-inline">
+              <div className="badge"></div>
+              <div className="badge"></div>
+              <div className="badge"></div>
+              <div className="badge"></div>
+            </div> */}
           </div>
           <div className="container-sobre">
             <h1>
@@ -64,7 +89,7 @@ function Sobre() {
                 <br />
                 Alumni Unesp Guaratinguetá - Home Office
                 <br />
-                07/2021 - Momento • 10 meses
+                07/2021 - Momento • {work} meses
               </h2>
             </div>
           </div>

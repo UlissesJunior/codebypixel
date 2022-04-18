@@ -238,6 +238,30 @@ body {
   margin-right: 24px;
 }
 
+.container-sobre .badge {
+  width: 120px;
+  height: 120px;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 2px solid #9174E4;
+}
+
+.container-sobre .badge img {
+  margin: 0;
+}
+
+.container-sobre:nth-child(3) {
+  height: 360px;
+}
+
 .container-sobre:nth-child(3) h2 {
   line-height: calc(210px/3);
 }
