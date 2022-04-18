@@ -4,10 +4,10 @@ import moment from "moment";
 import Nav from "./navbar";
 import User from "../img/user.png";
 import Timeline from "../img/timeline.png";
-import html_badge from "../img/badge_html.png";
-import css_badge from "../img/badge_css.png";
-import js_badge from "../img/badge_js.png";
-import c_badge from "../img/badge_c.png";
+// import html_badge from "../img/badge_html.png";
+// import css_badge from "../img/badge_css.png";
+// import js_badge from "../img/badge_js.png";
+// import c_badge from "../img/badge_c.png";
 
 function Sobre() {
   //Birthday
