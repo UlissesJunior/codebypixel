@@ -1,5 +1,6 @@
 //Variáveis
 $bg_dark: #151718;
+$bg_dark_2: #121214;
 $white: #fff;
 $white_op: rgba(255, 255, 255, 0.1);
 $purple: #9174E4;
@@ -13,7 +14,7 @@ $purple: #9174E4;
 }
 
 ::-webkit-scrollbar-track {
-    background: $bg_dark;
+    background: $bg_dark_2;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -47,7 +48,7 @@ $purple: #9174E4;
 }
 
 body {
-    background-color: #151718;
+    background-color: $bg_dark_2;
 }
 
 .container {
@@ -176,13 +177,6 @@ body {
 }
 
 .container-sobre {
-    margin-top: 80px;
-
-    .sobre-inline {
-        display: inline-flex;
-        flex-direction: row;
-    }
-
     h1 {
         font-size: 48px;
         font-weight: 600;
@@ -203,6 +197,7 @@ body {
     img {
         margin-right: 24px;
     }
+
     .badge {
         width: 120px;
         height: 120px;
@@ -211,19 +206,32 @@ body {
         align-items: center;
         justify-content: center;
         border: 2px solid $purple;
+
         img {
             margin: 0;
         }
     }
 }
 
+.sobre-inline {
+    display: inline-flex;
+    flex-direction: row;
+}
+
 .container-sobre:nth-child(3) {
     height: 360px;
+
     h2 {
         line-height: calc(210px/3);
     }
 }
 
+.container-body {
+    height: 100vh;
+    h2 {
+        line-height: 70px;
+    }
+}
 .container-contato {
     h2 {
         img {
@@ -232,7 +240,7 @@ body {
     }
 
     h2 {
-        span:nth-child(2) {
+        .download {
             color: $white;
             text-decoration: underline;
             cursor: pointer;

@@ -5,11 +5,6 @@ import Banner from "./img/banner.svg";
 
 function App() {
   
-  function myFunction() {
-    const selector = document.querySelector('.home-img')
-    selector.classList.add('magictime', 'puffIn')
-}
-setTimeout(myFunction, 2000);
   return (
     <>
       <div className="container">
