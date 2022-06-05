@@ -148,13 +148,9 @@ body {
   margin: auto;
 }
 
-.container-box:first-child {
-  height: calc(100vh - 80px);
-}
-
 .container-box {
   position: relative;
-  height: 100vh;
+  height: calc(100vh - 80px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -207,6 +203,10 @@ body {
 .container-box .contato-img img {
   width: 362px;
   height: 400px;
+}
+
+.container-box:nth-child(3) h2 {
+  line-height: 70px;
 }
 
 .container-sobre h1 {
