@@ -56,7 +56,7 @@ function Sobre() {
               </div>
             </div>
           </div>
-          <div className="container-box container-body">
+          <div className="container-box">
             <div className="container-sobre">
               <h1>
                 <span>Skills e Tecnologias</span>
@@ -83,7 +83,7 @@ function Sobre() {
             </div> */}
             </div>
           </div>
-          <div className="container-box container-body">
+          <div className="container-box">
             <div className="container-sobre">
               <h1>
                 <span>Experiência</span>
