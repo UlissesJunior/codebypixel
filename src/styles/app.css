@@ -54,6 +54,18 @@
   }
 }
 
+@-webkit-keyframes loading {
+  to {
+    background-position-x: 200%;
+  }
+}
+
+@keyframes loading {
+  to {
+    background-position-x: 200%;
+  }
+}
+
 .nav-container {
   position: relative;
   width: 100%;
@@ -276,5 +288,31 @@ body {
   color: #fff;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.loading {
+  width: 200px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100%;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  outline: none;
+  border: solid 4px transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#121214), to(#121214)), -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), color-stop(#6A50FF), to(rgba(255, 255, 255, 0.1)));
+  background-image: linear-gradient(#121214, #121214), linear-gradient(to right, rgba(255, 255, 255, 0.1), #6A50FF, rgba(255, 255, 255, 0.1));
+  background-clip: padding-box, border-box;
+  background-size: 200% auto;
+  -webkit-animation: loading 2.5s infinite linear;
+          animation: loading 2.5s infinite linear;
 }
 /*# sourceMappingURL=app.css.map */

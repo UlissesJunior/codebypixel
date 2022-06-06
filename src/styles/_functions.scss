@@ -11,3 +11,26 @@
     background-size: cover;
     background-position: center;
 }
+
+@mixin loading() {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+      
+        font-weight: bold;
+        font-size: 24px;
+        color: #fff;
+      
+        outline: none;
+        border: solid 4px transparent;
+      
+        background-image: linear-gradient($bg_dark_2, $bg_dark_2),
+        linear-gradient(to right, $white_op, $purple_3, $white_op);
+        background-clip: padding-box, border-box;
+        
+        background-size: 200% auto;
+        animation: loading 2.5s infinite linear;
+}

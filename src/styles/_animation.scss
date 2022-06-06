@@ -14,3 +14,10 @@
         filter: blur(0px);
     }
 }
+
+@keyframes loading {
+    to {
+      background-position-x: 200%;
+    }
+  }
+  
