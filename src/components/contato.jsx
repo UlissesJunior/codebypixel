@@ -23,7 +23,7 @@ function Contato() {
             </h1>
             <h2>
               <span>Currículo: </span>
-              <ExternalLink href="https://drive.google.com/file/d/1ob-UAwf_7bNoHWe6Q80jUZhpLZk2Cq_H/view?usp=sharing">
+              <ExternalLink href="https://drive.google.com/file/d/1_m4PJQ2PJ50Y9xd_nsjU-MW4oT3IOiWl/view?usp=sharing">
                 <span className="download">Download</span>
               </ExternalLink>
             </h2>
